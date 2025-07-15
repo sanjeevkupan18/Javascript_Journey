@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    color:#fff;
+
+
+}
+.container h1{
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+.clock{
+    height:50px;
+    width:200px;
+    padding:5px;
+    background-color:orange;
+    border: 1px solid white;
+    border-radius:8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

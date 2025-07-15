@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    height:100vh;
+    width:100%;
+    background:linear-gradient(45deg,rgb(26, 30, 106),rgb(3, 21, 39));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator{
+    /* height:800px;
+    width:600px;
+    border: 1px solid red; */
+    box-shadow: 5px 10px 10px rgba(255, 255, 255, 0.1);
+    background:linear-gradient(45deg,#212121,#333A3B);
+    border-radius: 20px;
+    color:#ffffff;
+    padding:60px 30px;
+
+}
+
+input{
+    height:90px;
+    width:328px;
+    margin-bottom:30px;
+    text-align: right;
+    padding:10px;
+    border:transparent;
+    color:#ffffff;
+    border-radius: 8px;
+    background-color: #828484;
+    box-shadow: 5px 1px 5px rgba(240, 240, 225, 0.1);
+    font-size: 50px;
+}
+input::placeholder{
+    color:#ffffff;
+    font-size: 50px;
+
+}
+
+button{
+    height:75px;
+    width:75px;
+    margin:5px;
+    background-color: #3c4040;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 5px 1px 5px rgba(240, 240, 225, 0.1);
+}
+
+.eqlBtn{
+    background-color: orange;
+}
+
+.operator{
+    color:rgb(31, 218, 31);
+}
